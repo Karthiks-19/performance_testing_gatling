@@ -1,0 +1,39 @@
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+### VS Code ###
+.vscode/
+bin/**/*
+.metals/
+### Ansible ###
+deploy/**.retry
+
+### Node Module ###
+node_modules/
+
+### Ansible ###
+deploy/*.retry
+
+**/**/.DS_Store
